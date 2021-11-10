@@ -15,8 +15,10 @@ for (let i = 0; i < mails.length && sentinella == false; i++) {
 
 if (sentinella) {
     console.log('Mail corretta');
+    document.getElementById("utente").innerHTML = 'Utente registrato.';
 } else {
     console.log('Mail non trovata');
+    document.getElementById("utente").innerHTML = 'Utente non registrato.';
 }
 
 

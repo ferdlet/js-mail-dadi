@@ -9,10 +9,34 @@
 </head>
 <body>
     
-    <input type="button" onclick="esito()" value="Lancia i dati">
-    <p>Dado Giocatore 1: <span id="dado1"></span></p>
-    <p>Dado Giocatore 2: <span id="dado2"></span></p>
-    <p>Esito: <span id="esito"></span></p>
+    <header>
+        <p id="utente"></p>
+        <h1>Gioco dei Dadi</h1>
+    </header>
+
+    <main>
+        
+        <div class="container">
+            <div class="box box_1">
+                <h2>Dado Giocatore 1</h2>
+                
+                <span id="dado1"></span>
+
+
+            </div>
+            <div class="box box_2">
+                <h2>Dado Giocatore 2</h2>
+                <span id="dado2"></span>
+            </div>
+        </div>
+        <div class="container-esito">
+            <input type="button" onclick="esito()" value="Lancia i dati">
+            <p id="esito"></p>
+        </div>
+
+    </main>
+
+    
 
     <script src="js/script.js"></script>
 </body>
